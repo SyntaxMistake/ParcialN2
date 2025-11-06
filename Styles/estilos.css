@@ -1,0 +1,101 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  color: black;
+  overflow: scroll;
+}
+#contenedor-pincipal {
+  background-color: #fbd1a2;
+}
+.header {
+  border-bottom: 0.5rem double rgb(180, 180, 180);
+  background-color: #f79256;
+  text-align: center;
+  padding: 2% 0px 0%;
+  text-decoration: none;
+}
+.header header h1 a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 6rem;
+}
+.header header h1 a abbr {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: underline wavy #80ed99 2px;
+}
+.contenedor-lista {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+.contenedor-lista li {
+  display: flex;
+  margin: 10px 2rem 5px;
+  padding: 5px 20px 15px;
+  border-radius: 10%;
+}
+.contenedor-lista a {
+  text-decoration: none;
+}
+.footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 0.5rem double rgb(137, 137, 137);
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+}
+.footer-section {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  padding: 2% 5% 2%;
+}
+.footer-section h3 {
+  padding-bottom: 2%;
+}
+.footer-section a {
+  text-decoration: none;
+  color: black;
+}
+.footer-section a:hover {
+  text-decoration: underline wavy #80ed99 2px;
+}
+.footer-section ul {
+  list-style-type: none;
+}
+.footer-section ul li {
+  padding: 5% 0%;
+}
+.footer-section ul li a:hover {
+  background-color: #80ed99;
+}
+.contenedor-lista li a:hover {
+  color: #80ed99;
+  background-color: #57cc99;
+  border-radius: 10%;
+}
+.tabla-contenido {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tabla-contenido td {
+  border: 1px solid black;
+  padding: 10px;
+  vertical-align: top;
+}
+#post-image {
+  width: 100%;
+  height: auto;
+}
+.contenido {
+  margin: 20px;
+}
+.contenido h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contenido p {
+  text-align: justify;
+  margin-bottom: 15px;
+}

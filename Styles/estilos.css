@@ -325,18 +325,34 @@
 
 @media (max-width: 768px) {
   .header header h1 a {
-    font-size: 3rem;
-  }
-  .cards-container {
-    grid-template-columns: 1fr;
-  }
-
-  h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .contenedor-lista {
-    font-size: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+  }
+
+  .contenedor-lista li {
+    margin: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .contenedor-lista a {
+    display: block;
+    padding: 0.8rem;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 10px 2% 0;
+  }
+
+  .card {
+    margin: 0 10px;
   }
 
   .tabla-contenido {
@@ -351,10 +367,66 @@
   .tabla-contenido td {
     width: 100%;
     height: auto;
-    min-height: 40vh;
+    min-height: 30vh;
+    margin-bottom: 10px;
   }
 
   .tabla-contenido img {
-    height: 200px;
+    height: 150px;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .footer-section {
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+    width: 100%;
+  }
+
+  .footer-section:last-child {
+    border-bottom: none;
+  }
+
+  .cuerpo {
+    margin: 0 5%;
+    font-size: 1rem;
+  }
+
+  .compartido {
+    padding: 0 1rem;
+    flex-direction: column;
+  }
+
+  .informacion img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .informacion li {
+    margin-left: 5%;
+    font-size: 1rem;
+  }
+
+  .titulo {
+    font-size: 1.8rem;
+    margin: 15px 0;
+  }
+
+  .contenido {
+    margin: 10px;
+  }
+
+  .contenido h2 {
+    font-size: 1.5rem;
+  }
+
+  .navbar {
+    padding: 1rem 0;
   }
 }
